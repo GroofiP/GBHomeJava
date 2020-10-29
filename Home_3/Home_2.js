@@ -27,4 +27,4 @@ const post = {
     ]
 }
 
-console.log(alert(`Автор - ${post.author}, дизлайки под постом - ${post.comments[0].rating.dislikes}, id пользователя - ${post.comments[1].userId}, текст пользователя - ${post.comments[1].text}`));
+console.log(alert(`Автор - ${post.author}, дизлайки под постом - ${post.comments[0].rating.dislikes} id пользователя - ${post.comments[1].userId}, текст пользователя - ${post.comments[1].text}`));
